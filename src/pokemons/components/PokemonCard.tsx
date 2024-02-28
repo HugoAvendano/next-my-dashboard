@@ -27,7 +27,8 @@ export default function PokemonCard({pokemon}: Props) {
                     <p className="pt-2 text-lg font-semibold capitalize text-gray-50">{name}</p>                    
                     <div className="mt-5">
                         <Link
-                            href={`/dashboard/pokemon/${id}`}
+                           /*  href={`/dashboard/pokemon/${id}`} */
+                            href={`/dashboard/pokemon/${name}`}                           
                             className="border rounded-full py-2 px-4 text-xs font-semibold text-gray-100"
                         >
                             View Details
